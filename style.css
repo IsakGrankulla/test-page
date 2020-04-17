@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(51, 49, 49);
+}
+
+#result {
+    font-size: 40px;
+    color: white;
+    font-family: monospace;
+}
+
+.var-a {
+    color: lightblue;
+}
+
+.var-div {
+    text-align: center;
+    margin-top: -260px;
+}
+
+.first-p {
+    font-size: 40px;
+    display: inline-block;
+    margin-top: 200px;
+    color: rgb(187, 135, 194);
+    font-family: monospace;
+}
+
+.var-p {
+    font-size: 40px;
+    display: inline-block;
+    margin-top: 20px;
+    color: rgb(153, 89, 161);
+    font-family: monospace;
+}
+
+input {
+    font-size: 40px;
+    border: 3px solid lightblue;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    text-align: center; 
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    color: wheat;
+    font-family: monospace;
+}
+
+button {
+    font-size: 40px;
+    background-color: transparent;
+    border: 1px solid wheat;
+    font-family: monospace;
+    color: wheat;
+}
+
+.button-div {
+    text-align: center;
+}
+
+#form {
+    /* text-align: center; */
+    margin-top: 10%;
+    
+}
+
+.if-div {
+   text-align: center; 
+
+}
+
+.second-p {
+    font-size: 30px;
+    margin-left: 25%;
+    color: lightblue;
+    margin-top: -20px;
+    font-family: monospace;
+}
+
+.first-a {
+    color: rgb(165, 78, 78);
+}
+
+.second-a {
+    color: wheat;
+    font-family: monospace;
+}
+
+.third-a {
+    color: lightblue;
+    font-family: monospace;
+}
+
+.last-a {
+    color: rgb(224, 222, 224);
+    font-family: monospace;
+}
+
+.last-p {
+    color: rgb(224, 222, 224);
+    font-size: 35px;
+    margin-right: 19%;
+    margin-top: -1%;
+    font-family: monospace;
+}
+
+.if-a {
+    color: lightblue;
+    font-family: monospace;
+}
+
+.third-p {
+    color: rgb(187, 135, 194);
+    font-size: 35px;
+    margin-left: 5%;
+    margin-top: -1%;
+    font-family: monospace;
+}
+
+@media screen and (max-width: 568px) {
+    * {
+        font-size: 20px;
+    }
+    .first-p {
+        font-size: 20px;
+    }
+    .third-p {
+        font-size: 20px;
+    }
+    .last-p {
+        font-size: 20px;
+    }
+    #result {
+        font-size: 20px;
+    }
+    button {
+        font-size: 20px;
+    }
+    .var-p {
+        margin-top: 300px;
+    }
+}
